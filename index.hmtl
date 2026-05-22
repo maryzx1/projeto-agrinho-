@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Sustentável | Futuro Forte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <nav>
+            <div class="logo">Agro<span>Sustentável</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro forte, futuro sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade e a preservação do meio ambiente.</p>
+            <button id="btnSaibaMais">Descubra Como</button>
+        </div>
+    </section>
+
+    <section id="pilares" class="container">
+        <h2 class="section-title">Nossos Compromissos</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Produção Consciente</h3>
+                <p>Uso de tecnologias de precisão para reduzir desperdícios e aumentar a eficiência no campo.</p>
+            </div>
+            <div class="card">
+                <h3>Preservação</h3>
+                <p>Manutenção de áreas de reserva legal e recuperação de solos degradados.</p>
+            </div>
+            <div class="card">
+                <h3>Tecnologia Verde</h3>
+                <p>Implementação de bioinsumos e energias renováveis em toda a cadeia produtiva.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Sustentável - Produzindo com Respeito à Natureza</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
